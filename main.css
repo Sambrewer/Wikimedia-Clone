@@ -7,24 +7,29 @@
 .intro {
     font-family: 'Roboto', sans-serif;
     font-size: 18px;
-     width: 600px;
+     width: 650px;
+     height: 200px;
      position: relative;
      margin: auto;
+}
+.intro p:nth-child(3) {
+  position: absolute;
+  right: 0;
 }
 .row {
   display: flex;
   justify-content: space-around;
-  width: 600px;
+  width: 650px;
   margin: auto;
 }
 .closing {
-  width: 600px;
+  width: 650px;
   border-top: 1px solid #000;
   text-align: center;
   margin: auto;
 }
 .legal {
-  width: 600px;
+  width: 650px;
   display: flex;
   justify-content: space-around;
   margin: auto;
