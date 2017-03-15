@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+.wrapper {
+  padding: 20px;
+  background: #fff;
+  margin-bottom: 20px;
+}
+.intro {
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+     width: 600px;
+     position: relative;
+     margin: auto;
+}
+.row {
+  display: flex;
+  justify-content: space-around;
+  width: 600px;
+  margin: auto;
+}
+.closing {
+  width: 600px;
+  border-top: 1px solid #000;
+  text-align: center;
+  margin: auto;
+}
+.legal {
+  width: 600px;
+  display: flex;
+  justify-content: space-around;
+  margin: auto;
+}
